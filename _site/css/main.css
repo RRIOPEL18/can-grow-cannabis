@@ -3927,15 +3927,15 @@ legend {
   --color-primary-light: #407B40;
   --color-secondary: #000;
   --color-accent: #ddd;
-  --color-neutral-beige: red;
-  --color-whatever: peachpuff;
+  --color-neutral-beige: darkred;
+  --color-whatever: lightblue;
 
   --font-primary: 'Hind Madurai', sans-serif;
   --font-secondary: 'Patua One', serif;
 }
 
 html {
-  font-family: var(--font-primary);
+  font-family: var(--font-secondary);
 }
 
 h1 {
@@ -3945,10 +3945,37 @@ h1 {
 
 h2 {
   color: var(--color-primary-light);
+  font-family: var(--font-secondary);
 }
 
 h3 {
+  color: var(--color-primary);
+  font-family: var(--font-primary);
+}
+
+h4 {
   color: var(--color-accent);
+  font-family: var(--font-secondary);
+}
+
+ul {
+  color: var(--color-primary);
+  font-family: var(--font-secondary)
+}
+
+ol {
+  color: var(--color-primary);
+  font-family: var(--font-secondary);
+}
+
+dl {
+  color: var(--color-primary);
+  font-family: var(--font-secondary);
+}
+
+a {
+  color: var(--color-whatever);
+  font-family: var(--font-secondary);
 }
 
 
