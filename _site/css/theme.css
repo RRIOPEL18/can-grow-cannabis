@@ -37,19 +37,37 @@ h4 {
 ul {
   color: var(--color-primary);
   font-family: var(--font-secondary)
+  font-style: normal;
+  text-decoration: none;
 }
 
 ol {
   color: var(--color-primary);
   font-family: var(--font-secondary);
+  font-style: normal;
 }
 
 dl {
   color: var(--color-primary);
   font-family: var(--font-secondary);
+  font-style: italic;
+}
+
+li {
+  color: var(--color-primary-light);
+  font-family: var(--font-secondary);
+  font-style: italic;
+  text-decoration: none;
 }
 
 a {
   color: var(--color-whatever);
   font-family: var(--font-secondary);
+  font-style: oblique;
+}
+
+blockquote {
+  color: var(--color-primary);
+  font-family: var(--font-secondary);
+  font-style: normal;
 }
