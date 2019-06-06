@@ -1,0 +1,28 @@
+:root {
+  --color-primary: #073825;
+  --color-primary-light: #407B40;
+  --color-secondary: #000;
+  --color-accent: #ddd;
+  --color-neutral-beige: red;
+  --color-whatever: peachpuff;
+
+  --font-primary: 'Hind Madurai', sans-serif;
+  --font-secondary: 'Patua One', serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
+
+h1 {
+  color: var(--color-primary);
+  font-family: var(--font-secondary);
+}
+
+h2 {
+  color: var(--color-primary-light);
+}
+
+h3 {
+  color: var(--color-accent);
+}

@@ -1,2 +1,5 @@
 permalink: pretty
 theme: jekyll_patternbot
+
+patterbot:
+  font_url: "https://fonts.googleapis.com/css?family=Hind+Madurai:400,700|Patua+One&display=swap">
