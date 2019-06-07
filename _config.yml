@@ -6,3 +6,8 @@ patterbot:
   description: |
     A company designed to connect patients and growers, while also educating patients on how to grow cannabis themselves.
   font_url: "https://fonts.googleapis.com/css?family=Hind+Madurai:400,700|Patua+One&display=swap"
+  rationales:
+    typfaces.primary: |
+      Hind Madurai was chosen to be used as a playful sans-serif font, to be applied to secondary headers and body copy.
+    typefaces.secondary: |
+      Patua One is used to support the primary typeface, it has serifs and is used mainly in headers as well.
