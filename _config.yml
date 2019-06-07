@@ -11,3 +11,7 @@ patternbot:
       Hind Madurai was chosen to be used as a playful sans-serif font, to be applied to secondary headers and body copy.
     typefaces.secondary: |
       Patua One is used to support the primary typeface, it has serifs and is used mainly in headers as well.
+    colors.primary: |
+      The primary colour is a dark green meant to symbolize life and growth.
+    colors.secondary: |
+      The secondary colour is used to accent the primary colour and is lighter and more neutral, and is meant to be used on darker backgrounds or secondary text.
