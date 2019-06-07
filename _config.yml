@@ -1,7 +1,7 @@
 permalink: pretty
 theme: jekyll_patternbot
 
-patterbot:
+patternbot:
   title: "CanGrow"
   description: |
     A company designed to connect patients and growers, while also educating patients on how to grow cannabis themselves.
