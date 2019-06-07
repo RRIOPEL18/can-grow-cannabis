@@ -7,8 +7,8 @@ patternbot:
     A company designed to connect patients and growers, while also educating patients on how to grow cannabis themselves.
   font_url: "https://fonts.googleapis.com/css?family=Hind+Madurai:400,700|Patua+One&display=swap"
   colors:
-    background: "--color-secondary-light"
-    accent: "--color-primary-dark"
+    background: "--color-primary"
+    accent: "--color-primary-light"
     patterns:
       brand.logos: "--color-primary-light"
   rationales:

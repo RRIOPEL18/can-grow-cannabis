@@ -10,20 +10,18 @@
   <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700" rel="stylesheet">
   <style>
     :root {
-      --color-patternbot-interface: 0;
-      --color-patternbot-interface-opposite: 255;
-      --color-patternbot-interface-background: #ffffff;
+      --color-patternbot-interface: 255;
+      --color-patternbot-interface-opposite: 0;
+      --color-patternbot-interface-background: #000000;
 
       
-        
-          --color-patternbot-interface-accent: #073825;
-        
+        --color-patternbot-interface-accent: #000000;
       
 
       
-        --color-patternbot-interface-sidebar: 0;
-        --color-patternbot-interface-sidebar-opposite: 255;
-        --color-patternbot-interface-sidebar-background: #ffffff;
+        --color-patternbot-interface-sidebar: 255;
+        --color-patternbot-interface-sidebar-opposite: 0;
+        --color-patternbot-interface-sidebar-background: #000000;
         --color-patternbot-interface-sidebar-accent: var(--color-patternbot-interface-accent);
       
 
@@ -226,7 +224,23 @@
     
     
     
-    <div class="pattern-details " id="brand--logos">
+      <style>
+        #brand--logos,
+        #brand--logos * {
+          --color-patternbot-interface: 255;
+          --color-patternbot-interface-opposite: 0;
+          --color-patternbot-interface-background: #407b40;
+          --color-patternbot-interface-accent: #ffffff;
+        }
+
+        #brand--logos.patternbot-override-color,
+        #brand--logos .patternbot-override-color {
+          color: #ffffff;
+          background-color: var(--color-patternbot-interface-background);
+        }
+      </style>
+    
+    <div class="pattern-details patternbot-override-color" id="brand--logos">
       
         <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4">
           <h3 class="pattern-name tera push-1-8">Logos</h3>
